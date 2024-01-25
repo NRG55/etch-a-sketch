@@ -4,21 +4,16 @@ body {
     align-items: center;
 }
 
-.title {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    padding: 80px;
+.title {   
+    padding: 60px;
     font-size: 60px;
 }
 
 .container {
     display: flex;
-    flex-direction: column; 
-    /* justify-content: center;
-    align-items: center;  */
-    width: 600px;
-    
+    flex-direction: column;   
+    width: 600px; 
+    border: solid 1px;    
 }
 
 .gridRow {
@@ -26,8 +21,10 @@ body {
 }
 
 .childGridDiv {   
-    border: solid black 1px;    
-    /* width: 50px;
-    height: 50px;     */
+    border: solid black 1px;     
 }
 
+.btnReset {
+    background-color: white;
+    margin-bottom: 20px;
+}
