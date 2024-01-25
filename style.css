@@ -20,11 +20,21 @@ body {
     display: flex;
 }
 
-.childGridDiv {   
+/* .childGridDiv {   
     border: solid black 1px;     
-}
+} */
 
-.btnReset {
+.btnReset, .btnColor, .btnBlack, .btnErase, .btnShadow {
     background-color: white;
     margin-bottom: 20px;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnChildContainer {
+    display: flex;
+    
 }
